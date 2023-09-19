@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #62797c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    background-color: #8ed7e4;
+    box-shadow: 0px 0px 10px rgb(130, 145, 148);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 600px;
+    animation: fadeIn 0.5s ease;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(151, 143, 143, 0.829);
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007BFF;
+}
+
+.form-group button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #577492;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #577492;
+}
+
+#clientesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#clientesTable th, #clientesTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#clientesTable th {
+    background-color: #f2f2f2;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
